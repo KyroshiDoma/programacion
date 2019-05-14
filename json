@@ -14,7 +14,7 @@ int main(){
 	j["nuevo"]["valor"]=25;
 	j["lista"]={1,0,3};
 	j["nuevo"]["olista"]={0,1,2,3};
-	j["objeto"]={{"moneda","USD"},{"valor"}};
+	j["objeto"]={{"moneda","USD"},{"valor",18.91}};
 	cout<<j<<endl;
 
 	json j2=[{"pi",3.141592},
@@ -23,7 +23,7 @@ int main(){
 		{"vacio",nullptr},
 		{"nuevo",{{"valor",25}},
 		{"lista",{1,0,3}},
-		{"objeto",{{"moneda","USD"},{"valor"}}
+		{"objeto",{{"moneda","USD"},{"valor",18.91}}
 	];
 
 	cout<<j2<<endl;
